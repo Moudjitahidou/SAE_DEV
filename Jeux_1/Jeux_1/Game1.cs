@@ -19,8 +19,9 @@ namespace Jeux_1
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-
+            Window.Title = "Test";
             base.Initialize();
+            System.Console.WriteLine("Qui a du caca partout coller au cucu");
         }
 
         protected override void LoadContent()
